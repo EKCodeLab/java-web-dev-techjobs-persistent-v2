@@ -1,0 +1,85 @@
+.body-content {
+    margin-top: 72px;
+}
+
+td, th {
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    vertical-align: top;
+}
+
+tr:nth-child(odd) {
+    background-color: #e4e4e4;
+}
+
+.centeredTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.job-listing {
+    margin: 30px auto;
+    border: 1px solid #e4e4e4;
+    width: 80%;
+}
+
+table.job-listing td:first-child {
+    font-weight: bold;
+}
+
+table.job-listing td:last-child {
+    width: 80%;
+}
+
+label {
+    margin-right: 15px;
+}
+
+.centered {
+    text-align: center;
+}
+
+p {
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+.centeredTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.job-listing {
+    border: 1px solid #e4e4e4;
+    width: 80%;
+    background-color: #e4e4e4;
+}
+
+.nav1 {
+    position:fixed;
+    margin-top:auto;
+    text-align: left;
+    color:black;
+    font-size:1em;
+    top:0;
+    width:100%;
+    height:6em;
+    background:#555;
+ }
+ .nav2 {
+      position:fixed;
+      margin-top:auto;
+      text-align: left;
+      color:black;
+      font-size:1em;
+      top:5em;
+      width:100%;
+      height:30px;
+      background:#35332e;
+   }
