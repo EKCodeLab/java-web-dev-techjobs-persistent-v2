@@ -16,26 +16,13 @@
 
     <div class="form-group">
         <label th:for="employer">Employer</label>
-        <select name="employerId" >
+        <select name="employerId">
             <option th:each="employer : ${employers}"
                     th:text="${employer.name}"
                     th:value="${employer.id}"></option>
         </select>
-
-
-
-<!--        <select th:field="${job.employer.name}">-->
-<!--&lt;!&ndash;            <select>&ndash;&gt;-->
-<!--            <option th:each="e : ${employers}" th:value="${e}" th:text="${e}"/>-->
-<!--        </select>-->
-<!--        <a th:href="@{'/employers/add'}">Add Employers</a>-->
-<!--    </div>-->
-
-<!--    <ul th:each="skill : ${job.skills}">-->
-<!--        <li>-->
-<!--            <a th:href="@{'/skills/view/' + ${skill.id}}" th:text="${skill.name}"></a>-->
-<!--        </li>-->
-<!--    </ul>-->
+        <a th:href="@{'/employers/add'}">Add Employers</a>
+    </div>
 
     <div class="form-group">
         <label th:for="skills">Skills</label>
@@ -48,18 +35,6 @@
 
     <input type="submit" value="Add Job" />
 </form>
-
-<!--//<div class="container body-content">-->
-    <div>
-    <h2>Employers</h2>
-    <ul>
-        <li th:each="employer : ${employers}">
-            <a th:href="@{'/employers/view/' + ${employer.id}}" th:text="${employer.name}"></a>
-        </li>
-    </ul>
-    <a th:href="@{'/employers/add'}">Add Employers</a>
-
-</div>
 
 </body>
 </html>
