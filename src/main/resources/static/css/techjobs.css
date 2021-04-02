@@ -1,5 +1,5 @@
 .body-content {
-    margin-top: 72px;
+    margin-top: 12em;
 }
 
 td, th {
@@ -61,25 +61,50 @@ div.job-listing {
     background-color: #e4e4e4;
 }
 
+
+.footer {
+   position:fixed;
+   margin-top:auto;
+   padding-top:.4em;
+   text-align: left;
+   color:#aed7fb;
+   font-size:.8em;
+   bottom:0;
+   width:100%;
+   height:30px;
+   background:#57bcef;
+}
+
+ul.list li{
+  display: inline;
+  width: 158px;
+  float: left;
+
+}
+
 .nav1 {
     position:fixed;
     margin-top:auto;
+    padding-top:3em;
     text-align: left;
-    color:black;
+    color:#e8e8e8;
     font-size:1em;
     top:0;
     width:100%;
-    height:6em;
+    height:8.5em;
     background:#555;
  }
+
  .nav2 {
       position:fixed;
       margin-top:auto;
+      padding-top:0.2em;
       text-align: left;
-      color:black;
+      color:#337ab7;
       font-size:1em;
-      top:5em;
+      font-weight: bold;
+      top:8.2em;
       width:100%;
       height:30px;
-      background:#35332e;
+      background:#464544;
    }
